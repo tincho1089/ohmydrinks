@@ -1692,3 +1692,18 @@ section {
 .img-fluid-team:hover {
   filter: grayscale(100%);
 }
+
+.contact-block {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-block-item {
+    margin-top: 1rem;
+  }
+}
